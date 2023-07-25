@@ -1,0 +1,7 @@
+.Text {
+    z-index: 2;
+    color: white;
+    font-size: 70px;
+
+    backdrop-filter: blur(2px);
+}

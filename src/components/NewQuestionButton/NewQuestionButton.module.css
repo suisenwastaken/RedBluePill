@@ -1,0 +1,6 @@
+.Add{
+    position: fixed;
+    right: 80px;
+    z-index: 2;
+    margin: 20px;
+}

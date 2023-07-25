@@ -1,0 +1,48 @@
+.Greetings {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg, rgba(9,9,121,1) 33%, rgba(255,46,0,1) 100%);
+}
+
+.logo{
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+    width: 300px;
+    top: -80px;
+  
+    z-index: 1;
+  
+    pointer-events: none;
+}
+
+.Info{
+
+    height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Text {
+  color: white;
+  text-align: center;
+}
+
+.HeadText {
+  font-size: 50px;
+}
+
+.Description {
+  font-size: 20px;
+}

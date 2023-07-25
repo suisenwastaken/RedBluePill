@@ -1,0 +1,46 @@
+.Screen {
+  display: flex;
+}
+
+
+.Answers {
+  display: flex;
+  flex-direction: row;
+  min-width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: space-evenly;
+
+  z-index: 0;
+}
+
+.logo {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  
+  width: 300px;
+  top: -80px;
+
+  z-index: 1;
+
+  pointer-events: none;
+}
+
+.NextQuestion {
+  position: fixed;
+  width: 20% !important;
+
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 50px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .Answers{
+    flex-direction: column;
+    height: 50vw;
+  }
+}

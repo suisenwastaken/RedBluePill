@@ -1,0 +1,62 @@
+.Login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgb(9,9,121);
+  background: linear-gradient(90deg, rgba(9,9,121,1) 33%, rgba(255,46,0,1) 100%);
+}
+
+.Card {
+    width: 60%;
+    height: auto;
+    border-radius: 15px;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Image{
+    width: 50%;
+    background-image: url('loginphoto2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.InputArea {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  margin-bottom: 50px;
+
+  gap: 20px;
+}
+
+.Title {
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 900px) {
+  .Image{
+    display: none;
+  }
+
+  .InputArea{
+    width: 100%;
+  }
+
+  .Card{
+    width: 80%;
+  }
+}
