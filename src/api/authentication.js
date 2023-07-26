@@ -4,7 +4,7 @@ export const login = async (userName, password) => {
      return { isLoggedIn: true }
     try {
         
-        const response = await axios.post('/lortrgin', { userName, password });
+        const response = await axios.post('/login', { userName, password });
         // console.log(response);
         // const reds = await response;
         // console.log(reds);

@@ -21,7 +21,6 @@ const QuestionAnswer = ({
                     cursor: isResultShown? 'default': '',
                     filter: isResultShown? 'none': ''}}
         >
-            {/* {isResultShown && <QuestionPercent percent={percent} />} */}
             <QuestionPercent percent={percent} isResultShown={isResultShown} />
             <div className={styles.Title}>{title}</div>
 
@@ -30,3 +29,4 @@ const QuestionAnswer = ({
 }
 
 export default QuestionAnswer
+

@@ -6,6 +6,7 @@ import QuestionAnswer from "../../components/QuestionAnswer"
 import ProfileButton from '../../components/ProfileButton/ProfileButton'
 import CustomButton from '../../components/CustomButton'
 import { getQuestion } from '../../api/getQuestion'
+import { sendAnswer } from '../../api/sendAnswer'
 import { useNavigate, useParams } from 'react-router-dom'
 import NewQuestionButton from '../../components/NewQuestionButton'
 import {motion} from 'framer-motion'
@@ -35,8 +36,16 @@ const QuestionScreen = () => {
         axiosData()
     },[]);
 
-    const showResult = () => {
-        return setIsResultShown(true)
+    const showAndSendResultBlue = async () => {
+        const sendResult = await sendAnswer(Number(id), 0)
+        if(sendResult.isPosted === true)
+            setIsResultShown(true)
+    }
+
+    const showAndSendResultRed = async () => {
+        const sendResult = await sendAnswer(Number(id), 1)
+        if(sendResult.isPosted === true)
+            setIsResultShown(true)
     }
 
     const nextQuestion = () =>{
@@ -64,7 +73,7 @@ const QuestionScreen = () => {
             <div className={styles.Answers}>
                 <QuestionAnswer
                     isResultShown={isResultShown}
-                    onClick={showResult}
+                    onClick={showAndSendResultBlue}
                     title={firstAnswer}
                     background={firstPic}
                     backgroundColor={'blue'}
@@ -72,7 +81,7 @@ const QuestionScreen = () => {
                 />
                 <QuestionAnswer
                     isResultShown={isResultShown}
-                    onClick={showResult}
+                    onClick={showAndSendResultRed}
                     title={secondAnswer}
                     background={secondPic}
                     backgroundColor={'red'}
