@@ -1,4 +1,4 @@
-<!-- Improved compatibility of вернуться на верх link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<!-- Improved compatibility of вернуться наверх link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -89,7 +89,7 @@
 
 ***В репозитории находится лишь фронтенд часть приложения***
 
-<p align="right">(<a href="#readme-top">вернуться на верх</a>)</p>
+<p align="right">(<a href="#readme-top">вернуться наверх</a>)</p>
 
 
 
@@ -101,7 +101,7 @@
 * [![router][router]][router-url]
 
 
-<p align="right">(<a href="#readme-top">вернуться на верх</a>)</p>
+<p align="right">(<a href="#readme-top">вернуться наверх</a>)</p>
 
 
 
@@ -132,7 +132,7 @@
     npm run dev
     ```
 
-<p align="right">(<a href="#readme-top">вернуться на верх</a>)</p>
+<p align="right">(<a href="#readme-top">вернуться наверх</a>)</p>
 
 
 
@@ -175,7 +175,7 @@ _Картинки для вопросов вставляются ссылкам�
 
 
 
-<p align="right">(<a href="#readme-top">вернуться на верх</a>)</p>
+<p align="right">(<a href="#readme-top">вернуться наверх</a>)</p>
 
 
 
@@ -188,7 +188,7 @@ _Картинки для вопросов вставляются ссылкам�
 
 Project Link: [https://github.com/suisenwastaken/RedBluePill](https://github.com/suisenwastaken/RedBluePill)
 
-<p align="right">(<a href="#readme-top">вернуться на верх</a>)</p>
+<p align="right">(<a href="#readme-top">вернуться наверх</a>)</p>
 
 
 
@@ -198,7 +198,7 @@ Project Link: [https://github.com/suisenwastaken/RedBluePill](https://github.com
 * Данный репозиторий содержит лишь фронтенд часть приложения
 * Первая работа на React
 
-<p align="right">(<a href="#readme-top">вернуться на верх</a>)</p>
+<p align="right">(<a href="#readme-top">вернуться наверх</a>)</p>
 
 
 
