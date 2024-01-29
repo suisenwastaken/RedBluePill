@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/suisenwastaken/RedBluePill">
-    <img src="images/logo.png" alt="Logo" width="380" height="380">
+    <img src="images/logo.png" alt="Logo" width="350">
   </a>
 
 <h3 align="center">RedBluePill</h3>
